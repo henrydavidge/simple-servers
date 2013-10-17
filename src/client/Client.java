@@ -54,7 +54,6 @@ public class Client{
 
         for (int i = 0; i < n_threads; i++) {
             threads[i].interrupt();
-            threads[i].join();
             sum += threads[i].getNReq();
         }
 
