@@ -33,6 +33,8 @@ public class Client{
             }
         }
 
+        System.err.println("t: " + t);
+
         BufferedReader br = new BufferedReader(new FileReader(fname));
 
         // Get list of filenames to request
